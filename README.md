@@ -5,18 +5,18 @@
 Le projet "Dice" est une application construite avec Spring Boot permettant de simuler des lancés de dés et de gérer un historique des résultats en base de données. Ce projet met en œuvre les concepts fondamentaux de Spring Boot, notamment l'injection de dépendances, les services RESTful, les entités JPA et les repositories.
 
 
-## Endpoints
-# Roll Dice
+# Endpoints
+## Roll Dice
 - URL: http://localhost:8081/api/dice-rolls/roll
 - Method: GET
 - Description: Roll a single dice and get the result.
 
-# Roll Multiple Dice
+## Roll Multiple Dice
 - URL: http://localhost:8081/api/dice-rolls/roll/{count}
 - Method: GET
 - Description: Roll count dice and get the results.
 
-# Dice Roll History
+## Dice Roll History
 - URL: http://localhost:8081/api/dice-rolls/logs
 - Method: GET
 - Description: Retrieve the history of all dice rolls.
